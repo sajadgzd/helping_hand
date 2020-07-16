@@ -3,7 +3,7 @@
     - instances: 1
       name: helping_hand
       buildpack: sdk-for-nodejs
-      command: npm start
+      command: npm run dev
       memory: 128M
       domain: mybluemix.net
       host: helping_hand
