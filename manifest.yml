@@ -1,5 +1,5 @@
 ---
     applications:
-    - name: helping_hand
+    - name: helping_hand-20200716170746431
     memory: 256M
     command: cd react_tree_age & npm run build & cd ..  & node server.js
