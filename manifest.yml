@@ -1,5 +1,9 @@
 ---
     applications:
-    - name: helping_hand
-    memory: 250M
-    command: cd react_tree_age & npm run build & cd ..  & node server.js
+    - instances: 1
+      name: helping_hand
+      buildpack: sdk-for-nodejs
+      command: npm start
+      memory: 128M
+      domain: mybluemix.net
+      host: helping_hand
