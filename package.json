@@ -14,7 +14,7 @@
     "nodemon": "^1.18.7"
   },
   "scripts": {
-    "start": "node server.js",
+    "start": "cd react_tree_age & npm run build & cd ..  & node server.js",
     "dev": "concurrently \"nodemon --ignore 'react_tree_age/*'\" \"npm run client\"",
     "client": "cd react_tree_age && npm run start",
     "build": "cd react_tree_age && npm run build"
