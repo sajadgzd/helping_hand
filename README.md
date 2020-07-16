@@ -1,4 +1,4 @@
 # tree-age
-Checkout interns 2020 hackathon project
+Checkout interns 2020 Intern hackathon project
 
-Helping Hand Project
+Helping Hand Project 
